@@ -153,19 +153,18 @@ Mixkit Sound Effects) per project licensing rule.
 - **License:** Pixabay Content License — free commercial use, no attribution required. Mixkit backup: Mixkit License, same terms.
 - ✅ Commercial YouTube use allowed. ❌ Credit not required.
 
-**SFX Summary**
+**SFX Summary — ✅ LOCKED (final, user-confirmed 2026-09-25/26)**
 
-| Animal | Target filename | Primary source | License | Credit required |
+| Animal | Target filename | Actual source used | License | Credit required |
 |---|---|---|---|---|
 | Cow (moo) | sfx-cow-moo.mp3 | Pixabay Sound Effects | Pixabay Content License | No |
-| Sheep (baa) | sfx-sheep-baa.mp3 | Pixabay Sound Effects | Pixabay Content License | No |
-| Chicken (cluck, hen not rooster) | sfx-chicken-cluck.mp3 | Pixabay Sound Effects | Pixabay Content License | No |
-| Pig (oink) | sfx-pig-oink.mp3 | Pixabay Sound Effects | Pixabay Content License | No |
+| Sheep (baa) | sfx-sheep-baa.mp3 | Extracted from the approved `001-item2-sheep-ai.mp4` audio track (Google Flow generation) | Covered under the same AI-generation usage terms as the approved video itself — not a separate third-party asset | No |
+| Chicken (cluck, hen not rooster) | sfx-chicken-cluck.mp3 | Extracted from the approved `001-item3-chicken-ai.mp4` audio track (Google Flow generation) | Same as above | No |
+| Pig (oink) | sfx-pig-oink.mp3 | Extracted from the approved `001-item4-pig-ai.mp4` audio track (Google Flow generation) | Same as above | No |
 
-All four have a Mixkit-hosted backup (mixkit.co/free-sound-effects/{cow,animals,chicken,pig}/)
-under the equally free-commercial, no-attribution Mixkit License, so each animal has two
-independent free-commercial sources if the primary Pixabay pick doesn't fit the sync point
-exactly.
+**Actual sourcing differs from the original plan** (which called for all 4 from Pixabay/Mixkit): only the cow SFX came from Pixabay as planned. The sheep, chicken, and pig sounds were pulled directly from the audio tracks of their own already-approved AI-generated videos, which turned out to contain matching animal vocalizations. This is arguably a better fit for the AI-clip beats (same generation as the visual, guaranteed consistent), though it means those three don't need the Pixabay/Mixkit backups listed above — kept for reference only in case any of the three need re-sourcing later.
+
+All four files listened-through and confirmed correct by the user, including the hen-not-rooster check on the cluck.
 
 ---
 
