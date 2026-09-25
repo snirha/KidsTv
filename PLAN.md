@@ -58,9 +58,11 @@
 ## 3. זרימת הפקה לכל פרק (Pipeline)
 
 ```
+series-concept.md (חד-פעמי, שלב 1) ─▶ character-designer (Bible)
+                                                 │
 רעיון ─▶ story-writer ─▶ [fact-checker]* ─▶ voice-director
                                                  │
-     character-designer (Bible) ─▶ visual-prompter ─▶ יצירה ב-OpenArt (ידני)
+                            visual-prompter ─▶ יצירה ב-OpenArt (ידני)
                                                  │
                         [footage-curator]* ─▶ editor ─▶ הרכבה ב-CapCut (ידני)
                                                  │
@@ -98,8 +100,9 @@ KidsTv/
 - [ ] פתיחת חשבון OpenArt, חשבון Google ייעודי
 
 ### שלב 1 — מותג ודמויות (שבוע 2)
-- [ ] `character-designer`: 2–3 דמויות ראשיות + דמות משנה, כל אחת עם דף Bible ופרומפט בסיס
-- [ ] יצירת הדמויות ב-OpenArt Character ושמירתן
+- [x] `bible/series-concept.md`: קונספט-על — מארח/ת אחד/ת קבוע/ה לכל הערוץ, משמש/ת גם בפורמט A (גיבור/ת סיפור) וגם בפורמט B (מארח/ת-חוקר/ת). **חייב להיות מוגדר לפני עיצוב דמות.**
+- [ ] `character-designer`: עיצוב דמות המארח/ת לפי `series-concept.md` — דף Bible + פרומפט בסיס
+- [ ] יצירת הדמות ב-OpenArt Character ושמירתה
 - [ ] `style-bible.md`: שם ערוץ, פלטה, סגנון אנימציה, טון קריינות, פתיח/סגיר קבוע
 - [ ] לוגו + באנר, הקמת הערוץ
 
