@@ -156,8 +156,8 @@ Negative prompt: no text, no watermark, no extra limbs, no scary face, no realis
 
 **(2) Image→Video prompt (motion: Pip points to each icon in turn as its sound is said):**
 ```
-Animate this exact image: Pip points to the cow icon as "moo" is heard, then the sheep icon as "baa" is heard, then the chicken icon as "cluck" is heard, then the pig icon as "oink" is heard, each icon gently bounces once when pointed at, Pip's expression stays warm and encouraging throughout, camera holds a static friendly medium shot, smooth toddler-paced motion, duration 5-6 seconds, soft 3D cartoon style, warm soft pastel lighting, toddler animation style, bright saturated primary colors, simple rounded shapes, no sharp edges, consistent character design
-Negative prompt: no text, no watermark, no extra limbs, no scary face, no realistic human anatomy, no violence, no weapons, no fast whip-pans, no strobing
+Animate this exact image: Pip points to the cow icon as "moo" is heard, then the sheep icon as "baa" is heard, then the chicken icon as "cluck" is heard, then the pig icon as "oink" is heard, each icon gently bounces once when pointed at, Pip's expression stays warm and encouraging throughout, camera holds a static friendly medium shot, smooth toddler-paced motion, duration 5-6 seconds, soft 3D cartoon style, warm soft pastel lighting, toddler animation style, bright saturated primary colors, simple rounded shapes, no sharp edges, consistent character design, no tall trees, keeping the same open meadow with only rolling hills and round bushes at the edges
+Negative prompt: no text, no watermark, no extra limbs, no scary face, no realistic human anatomy, no violence, no weapons, no fast whip-pans, no strobing, no trees, no forest, no new background elements
 ```
 
 **(3) קובץ:** `001-recap-pip-meadow.png` / `001-recap-pip-meadow.mp4`
@@ -174,8 +174,8 @@ Negative prompt: no text, no watermark, no extra limbs, no scary face, no realis
 
 **(2) Image→Video prompt (motion: wave + nose-wiggle x3 sign-off):**
 ```
-Animate this exact image of Pip in Pip's Meadow: Pip waves warmly at camera with one paw for about a second, then wiggles his nose three quick times (signature closing gesture), eyes crinkling with a happy gentle smile, soft idle sway of the scarf in a light breeze, camera holds a static friendly medium shot, no camera shake, gentle fade-ready final frame, smooth toddler-paced motion, duration 4-5 seconds, soft 3D cartoon style, warm soft pastel lighting, toddler animation style, bright saturated primary colors, simple rounded shapes, no sharp edges, consistent character design
-Negative prompt: no text, no watermark, no extra limbs, no scary face, no realistic human anatomy, no violence, no weapons, no fast whip-pans, no strobing
+Animate this exact image of Pip in Pip's Meadow: Pip waves warmly at camera with one paw for about a second, then wiggles his nose three quick times (signature closing gesture), eyes crinkling with a happy gentle smile, soft idle sway of the scarf in a light breeze, camera holds a static friendly medium shot, no camera shake, gentle fade-ready final frame, smooth toddler-paced motion, duration 4-5 seconds, soft 3D cartoon style, warm soft pastel lighting, toddler animation style, bright saturated primary colors, simple rounded shapes, no sharp edges, consistent character design, no tall trees, keeping the same open meadow with only rolling hills and round bushes at the edges
+Negative prompt: no text, no watermark, no extra limbs, no scary face, no realistic human anatomy, no violence, no weapons, no fast whip-pans, no strobing, no trees, no forest, no new background elements
 ```
 
 **(3) קובץ:** `001-close-pip-meadow.png` / `001-close-pip-meadow.mp4`
