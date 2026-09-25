@@ -156,3 +156,23 @@ Pip (VO): "Moo, baa, cluck, oink! Can you say them too?"
 ## הערות בטיחות/עובדות ל-fact-checker
 - לוודא שקולות AI-cartoon (moo/baa/cluck/oink) תואמים את הצליל האמיתי לפני שילוב בפוטג'.
 - לוודא שפוטג' סטוק של כל 4 החיות זמין וללא פנים אדם מזוהות (תואם youtube-kids-compliance).
+
+## בדיקת עובדות (Fact-Check)
+
+**1. פרה אומרת "Moo"** — ✅ מאומת. הצליל הסטנדרטי המיוחס לפרה במקורות חינוכיים לילדים ובאנציקלופדיות פשוטות.
+
+**2. כבשה אומרת "Baa"** — ✅ מאומת. תיאור מקובל וסטנדרטי לפעיית כבשה.
+
+**3. תרנגולת אומרת "Cluck"** — ✅ מאומת, עם דיוק חשוב: "Cluck" הוא הצליל הנכון עבור **תרנגולת (hen)**, לא עבור **תרנגול (rooster)**, שקוראת "cock-a-doodle-doo". התסריט משתמש בעקביות במילה "chicken" (תרנגולת/עוף כללי) ובוויזואל של תרנגולת מנקרת באדמה — לא תרנגול — כך שהשימוש ב-"cluck" מדויק ואין בלבול. שם המקור: Backyard Poultry / SoundCy — clucks הם הצליל האופייני של תרנגולות (hens), בעוד קרקור ("crow") שמור לתרנגולים.
+
+**4. חזיר אומר "Oink"** — ✅ מאומת. תיאור סטנדרטי ומקובל לצליל חזיר בתוכן חינוכי לילדים.
+
+**5. בטיחות מול בעלי חיים** — ✅ נבדק. התסריט אינו מציג כל אינטראקציה פיזית של Pip או של ילדים עם בעלי החיים (אין ליטוף, האכלה, התקרבות למכלאה וכו'); כל התכנים הם קליפים מצוירים (AI) או פוטג' סטוק תיעודי מרוחק. אין התנהגות מסוכנת או מטעה המוצגת כמומלצת.
+
+**6. התאמה לגיל (2–4)** — ✅ מתאים. מבנה חוזר ופשוט (label → מילת מפתח → חזרה → פוטג' אמיתי → שאלה), משפטים קצרים, ללא תוכן מפחיד או מורכב, עונה על עקרונות פדגוגיה לגיל הרך (חזרתיות, שפה פשוטה, שאלות מעודדות מעורבות).
+
+## מקורות
+- [Backyard Poultry — What Roosters Are Crowing About](https://backyardpoultry.iamcountryside.com/chickens-101/what-roosters-are-crowing-about/) — הבחנה בין קרקור תרנגול (crow) לקרקור תרנגולת (cluck).
+- [SoundCy — Clucks, Chirps, And More: Decoding The Unique Sounds Of Chickens](https://soundcy.com/article/what-a-chicken-sounds-like) — אישור ש-"cluck" הוא הצליל התקני של תרנגולות.
+- [FluentU — 18 Common Animal Sounds in English](https://www.fluentu.com/blog/english/animal-sounds-in-english/) — רשימת צלילי בעלי חיים סטנדרטיים (moo, baa, oink וכו') בהוראת אנגלית לילדים.
+- [Bambinos — Animal Sounds in English: Fun and Educational Guide for Kids](https://bambinos.live/blog/animal-sounds-in-english-fun-and-educational-guide-for-kids) — אימות נוסף לצלילי חיות משק סטנדרטיים לילדים.
