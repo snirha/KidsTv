@@ -103,14 +103,10 @@ clip is silent or has only ambient wind/nature sound.
 | 3 | Chicken | Pexels      | Yes (needs hen-vs-rooster visual check) | Pexels License (commercial OK) | No | 03-chicken-real.mp4 |
 | 4 | Pig     | Pexels      | Yes              | Pexels License (commercial OK) | No | 04-pig-real.mp4 |
 
-**Open items before lock:**
-- Confirm exact runtimes on each Pexels download page match the script's 3-5s real-footage beat (trim in edit).
-- Chicken: visually confirm hen (not rooster) in final frame selection.
-- All 4 clips are silent-safe visually but likely need separately-licensed animal-sound SFX
-  layered in post — source those from Pixabay Sound Effects or Mixkit Sound Effects
-  (both free-commercial-use libraries) and log their licenses here once chosen.
-- Did not need to fall back to Pixabay/Mixkit/Dareful for any animal — Pexels had solid
-  no-face, commercially-clear options for all 4.
+**✅ ALL 4 CLIPS LOCKED (user-confirmed 2026-09-26).** Cow, sheep, and pig approved as originally
+proposed; chicken required switching to the backup link after the primary candidate was
+confirmed to be a rooster (see §3 above). SFX and music also confirmed (see §5-6). Episode 001
+now has every asset (visual, footage, SFX, music) approved and ready for assembly per `edit.md`.
 
 ---
 
@@ -190,10 +186,8 @@ toddler-pacing requirement of no jarring audio.
 but embedding it in the episode video is fully covered).
 ✅ Commercial YouTube use allowed. ❌ Credit not required.
 
-**Recommendation:** pick **Alt candidate 2 ("Sweet Children Music Loop – Gentle Joy", ~2:04)**
-as the primary choice since its native length already exceeds the episode's ~1:56 runtime — it
-can run as one continuous bed with a clean fade-out at the close, with no mid-episode loop
-seam to hide, fully satisfying edit.md's "continuous from open to close" rule.
+**✅ LOCKED (user-confirmed 2026-09-26):** "Sweet Children Music Loop – Gentle Joy" by Sonican
+(~2:04, Pixabay Music) — runs as one continuous bed start-to-end with no mid-episode loop seam.
 
 **Open items before lock:**
 - Preview-listen all 3 Pixabay candidates against edit.md's exact mixing rule (mixed at
