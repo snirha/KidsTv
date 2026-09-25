@@ -19,7 +19,14 @@ Pip the quokka, small round toddler-friendly 3D cartoon character, chubby soft m
 no text, no watermark, no extra limbs, no scary face, no realistic human anatomy, no violence, no weapons
 ```
 
-כל פרומפט למטה בנוי לפי התבנית: `[Pip base prompt] + [action/scene clause] + [style suffix] + Negative prompt: [negative block]`. השתמשו ב-Character asset שמור של Pip (OpenArt Character) במקום להקליד את התיאור מחדש, כשהכלי תומך בכך — הטקסט המלא נשמר כאן כגיבוי/פולבק ולבדיקת עקביות.
+**Pip's Meadow home-base environment prompt (verbatim, `bible/locations/pips-meadow.md`) — לשימוש בכל סצנה שבה Pip "בבית" (OPEN/RECAP/CLOSE):**
+```
+Pip's Meadow home base, a small sunny open meadow clearing, soft rounded green hills in the background, bright warm blue sky with a simple stylized cartoon sun, one or two round soft green bushes on the sides, warm green grass, no dark forest, no tall trees, no shadows or scary elements, soft 3D cartoon style, warm soft pastel lighting, toddler animation style, bright saturated colors, simple rounded shapes, consistent background design
+```
+
+כל פרומפט למטה בנוי לפי התבנית: `[Pip base prompt] + [action/scene clause] + [style suffix] + Negative prompt: [negative block]`. עבור סצנות "בית" — [action/scene clause] כולל את מחרוזת הסביבה הקבועה למעלה, מילה במילה, לא ניסוח חופשי. השתמשו ב-Character asset שמור של Pip (OpenArt Character) במקום להקליד את התיאור מחדש, כשהכלי תומך בכך — הטקסט המלא נשמר כאן כגיבוי/פולבק ולבדיקת עקביות.
+
+**הערה על תמונת רפרנס לסביבה:** לפי `bible/locations/pips-meadow.md`, עדיין לא אושרה תמונת רפרנס נעולה לסביבה (רק פרומפט טקסטואלי). מומלץ להריץ קודם את פרומפט ה-OPEN למטה, לאשר את התוצאה, ולשמור אותה כרפרנס/Character-asset-נלווה לפני שממשיכים ל-RECAP ו-CLOSE — כדי שכל שלוש הסצנות "בבית" יתבססו על אותה תמונה מאושרת, לא רק על אותו טקסט.
 
 ---
 
@@ -27,9 +34,11 @@ no text, no watermark, no extra limbs, no scary face, no realistic human anatomy
 
 **(1) Image prompt:**
 ```
-Pip the quokka, small round toddler-friendly 3D cartoon character, chubby soft marsupial body, warm sandy-brown fur (#C68958), cream belly patch (#F5E6D3), big round dark brown eyes spaced wide apart, small rounded ears, permanent gentle smile, wearing a bright teal scarf (#2EC4B6) with a tiny white star patch, soft 3D cartoon style, warm soft lighting, simple rounded shapes, no sharp edges, toddler animation style, consistent character design, standing in Pip's Meadow home base, sunny green meadow clearing with soft rolling hills and a few round bushes, wiggling his nose three times, big excited eyes looking straight at camera, welcoming pose, soft 3D cartoon style, warm soft pastel lighting, toddler animation style, bright saturated primary colors, simple rounded shapes, no sharp edges, consistent character design
-Negative prompt: no text, no watermark, no extra limbs, no scary face, no realistic human anatomy, no violence, no weapons
+Pip the quokka, small round toddler-friendly 3D cartoon character, chubby soft marsupial body, warm sandy-brown fur (#C68958), cream belly patch (#F5E6D3), big round dark brown eyes spaced wide apart, small rounded ears, permanent gentle smile, wearing a bright teal scarf (#2EC4B6) with a tiny white star patch, soft 3D cartoon style, warm soft lighting, simple rounded shapes, no sharp edges, toddler animation style, consistent character design, standing in Pip's Meadow home base, a small sunny open meadow clearing, soft rounded green hills in the background, bright warm blue sky with a simple stylized cartoon sun, one or two round soft green bushes on the sides, warm green grass, no dark forest, no tall trees, no shadows or scary elements, wiggling his nose three times, big excited eyes looking straight at camera, welcoming pose, soft 3D cartoon style, warm soft pastel lighting, toddler animation style, bright saturated primary colors, simple rounded shapes, no sharp edges, consistent character design, consistent background design
+Negative prompt: no text, no watermark, no extra limbs, no scary face, no realistic human anatomy, no violence, no weapons, no dark shadows, no dense dark forest
 ```
+
+**⚠️ זו הפעם הראשונה שהסביבה נוצרת — שמור את התוצאה כתמונת הרפרנס הרשמית של "Pip's Meadow" ב-`bible/locations/assets/` ועדכן את הסטטוס ב-`pips-meadow.md`, לפני שממשיכים ל-RECAP ו-CLOSE, כדי ששלושתם יתבססו על אותה סביבה מאושרת.**
 
 **(2) Image→Video prompt (motion: signature nose-wiggle x3, then wave):**
 ```
@@ -137,12 +146,30 @@ Negative prompt: no text, no watermark, no extra limbs, no scary face, no realis
 
 ---
 
+## RECAP — Pip's Meadow, home base, with 4 animal icons
+
+**(1) Image prompt:**
+```
+Pip the quokka, small round toddler-friendly 3D cartoon character, chubby soft marsupial body, warm sandy-brown fur (#C68958), cream belly patch (#F5E6D3), big round dark brown eyes spaced wide apart, small rounded ears, permanent gentle smile, wearing a bright teal scarf (#2EC4B6) with a tiny white star patch, soft 3D cartoon style, warm soft lighting, simple rounded shapes, no sharp edges, toddler animation style, consistent character design, standing in Pip's Meadow home base, a small sunny open meadow clearing, soft rounded green hills in the background, bright warm blue sky with a simple stylized cartoon sun, one or two round soft green bushes on the sides, warm green grass, no dark forest, no tall trees, no shadows or scary elements, four small simple round cartoon icons floating gently around Pip at chest height — a cow, a sheep, a chicken, and a pig, each matching the art style of their earlier scenes, evenly spaced, Pip smiling at camera pointing at the icons one by one, soft 3D cartoon style, warm soft pastel lighting, toddler animation style, bright saturated primary colors, simple rounded shapes, no sharp edges, consistent character design, consistent background design
+Negative prompt: no text, no watermark, no extra limbs, no scary face, no realistic human anatomy, no violence, no weapons, no dark shadows, no dense dark forest
+```
+
+**(2) Image→Video prompt (motion: Pip points to each icon in turn as its sound is said):**
+```
+Animate this exact image: Pip points to the cow icon as "moo" is heard, then the sheep icon as "baa" is heard, then the chicken icon as "cluck" is heard, then the pig icon as "oink" is heard, each icon gently bounces once when pointed at, Pip's expression stays warm and encouraging throughout, camera holds a static friendly medium shot, smooth toddler-paced motion, duration 5-6 seconds, soft 3D cartoon style, warm soft pastel lighting, toddler animation style, bright saturated primary colors, simple rounded shapes, no sharp edges, consistent character design
+Negative prompt: no text, no watermark, no extra limbs, no scary face, no realistic human anatomy, no violence, no weapons, no fast whip-pans, no strobing
+```
+
+**(3) קובץ:** `001-recap-pip-meadow.png` / `001-recap-pip-meadow.mp4`
+
+---
+
 ## CLOSE — Pip's Meadow, home base
 
 **(1) Image prompt:**
 ```
-Pip the quokka, small round toddler-friendly 3D cartoon character, chubby soft marsupial body, warm sandy-brown fur (#C68958), cream belly patch (#F5E6D3), big round dark brown eyes spaced wide apart, small rounded ears, permanent gentle smile, wearing a bright teal scarf (#2EC4B6) with a tiny white star patch, soft 3D cartoon style, warm soft lighting, simple rounded shapes, no sharp edges, toddler animation style, consistent character design, standing back in Pip's Meadow home base, sunny green meadow clearing with soft rolling hills, waving one paw at camera, warm happy closing expression, golden late-afternoon light, soft 3D cartoon style, warm soft pastel lighting, toddler animation style, bright saturated primary colors, simple rounded shapes, no sharp edges, consistent character design
-Negative prompt: no text, no watermark, no extra limbs, no scary face, no realistic human anatomy, no violence, no weapons
+Pip the quokka, small round toddler-friendly 3D cartoon character, chubby soft marsupial body, warm sandy-brown fur (#C68958), cream belly patch (#F5E6D3), big round dark brown eyes spaced wide apart, small rounded ears, permanent gentle smile, wearing a bright teal scarf (#2EC4B6) with a tiny white star patch, soft 3D cartoon style, warm soft lighting, simple rounded shapes, no sharp edges, toddler animation style, consistent character design, standing in Pip's Meadow home base, a small sunny open meadow clearing, soft rounded green hills in the background, bright warm blue sky with a simple stylized cartoon sun, one or two round soft green bushes on the sides, warm green grass, no dark forest, no tall trees, no shadows or scary elements, waving one paw at camera, warm happy closing expression, golden late-afternoon light, soft 3D cartoon style, warm soft pastel lighting, toddler animation style, bright saturated primary colors, simple rounded shapes, no sharp edges, consistent character design, consistent background design
+Negative prompt: no text, no watermark, no extra limbs, no scary face, no realistic human anatomy, no violence, no weapons, no dark shadows, no dense dark forest
 ```
 
 **(2) Image→Video prompt (motion: wave + nose-wiggle x3 sign-off):**

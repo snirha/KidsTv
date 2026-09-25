@@ -43,10 +43,10 @@
 | 21 | 1:20.6–1:24.5 (3.9s) | `04-pig-real.mp4` | "Yes! A real pig!" / "The pig says oink. Oink!" | **A REAL PIG!** | Hard cut |
 | 22 | 1:24.5–1:30.0 (5.5s) | `04-pig-real.mp4` המשך | "Did you hear the pig say oink?" **[PAUSE 2-3s]** | **Did you hear OINK?** | Hard cut |
 | **RECAP** ||||||
-| 23 | 1:30.0–1:35.6 (5.6s) | `001-close-pip-meadow.mp4`-style home-base plate + 4 אייקוני חיה קטנים מסביב (סטילס מתוך ה-AI clips, מונפשים בעדינות) | "We heard the cow say moo!" / "We heard the sheep say baa!" | אייקון פרה מהבהב → אייקון כבשה מהבהב | Hard cut |
-| 24 | 1:35.6–1:40.7 (5.1s) | אותו plate, המשך | "We heard the chicken say cluck!" / "We heard the pig say oink!" | אייקון תרנגולת → אייקון חזיר | Hard cut |
-| 25 | 1:40.7–1:44.9 (4.2s) | אותו plate, כל 4 האייקונים מוצגים יחד | "Moo, baa, cluck, oink!" **[PAUSE 2-3s]** | 4 האייקונים יחד + מילים מוקפצות | Hard cut |
-| 26 | 1:44.9–1:51.0 (6.1s → פצל ל-2 שוטים) | (א) 1:44.9–1:48.9 (4.0s): plate + zoom-in קל; (ב) 1:48.9–1:51.0 (2.1s): קאט-בק ל-Pip תקריב | "Moo, baa, cluck, oink! Can you say them too?" **[PAUSE 2-3s]** | **Can you say them too?** | Hard cut באמצע, לשמור מתחת ל-6s לשוט |
+| 23 | 1:30.0–1:35.6 (5.6s) | `001-recap-pip-meadow.mp4` (קובץ ייעודי, לא עוד placeholder — ראה prompts.md) | "We heard the cow say moo!" / "We heard the sheep say baa!" | אייקון פרה מהבהב → אייקון כבשה מהבהב | Hard cut |
+| 24 | 1:35.6–1:40.7 (5.1s) | `001-recap-pip-meadow.mp4` המשך | "We heard the chicken say cluck!" / "We heard the pig say oink!" | אייקון תרנגולת → אייקון חזיר | Hard cut |
+| 25 | 1:40.7–1:44.9 (4.2s) | `001-recap-pip-meadow.mp4` המשך, כל 4 האייקונים מוצגים יחד | "Moo, baa, cluck, oink!" **[PAUSE 2-3s]** | 4 האייקונים יחד + מילים מוקפצות | Hard cut |
+| 26 | 1:44.9–1:51.0 (6.1s → פצל ל-2 שוטים) | (א) 1:44.9–1:48.9 (4.0s): `001-recap-pip-meadow.mp4` + zoom-in קל; (ב) 1:48.9–1:51.0 (2.1s): קאט-בק ל-Pip תקריב | "Moo, baa, cluck, oink! Can you say them too?" **[PAUSE 2-3s]** | **Can you say them too?** | Hard cut באמצע, לשמור מתחת ל-6s לשוט |
 | **CLOSE** ||||||
 | 27 | 1:51.0–1:56.0 (5.0s) | `001-close-pip-meadow.mp4` | "Great exploring today! Wiggle your nose... bye bye, see you next time!" | **See you next time!** + כרזת "Next episode" (thumbnail קטן) | Fade to logo/end-card |
 
