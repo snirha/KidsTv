@@ -25,21 +25,35 @@
 
 כל סוכן מוגדר ב-`.claude/agents/` ומקבל קלט/פלט מוגדרים. הסוכנים עובדים על קבצים בריפו, כך שכל שלב משאיר תוצר שהשלב הבא קורא.
 
-| # | סוכן | תפקיד | קלט | פלט |
-|---|---|---|---|---|
-| 0 | `showrunner` | מנהל ההפקה: מתזמר את הסוכנים, מחליט על סדר ובודק שכל שלב הושלם | רעיון / לוח תוכן | `episodes/<id>/status.md` |
-| 1 | `trend-researcher` | מחקר ניש, מתחרים, נושאים מבוקשים, פערים בשוק | תחום / שאלה | `research/*.md` |
-| 2 | `character-designer` | עיצוב דמויות קבועות ושמירת עקביות ויזואלית | קונספט דמות | `bible/characters/<name>.md` |
-| 3 | `story-writer` | כתיבת סיפור ותסריט לפי מסגרת 3 הביטים | נושא + דמויות | `episodes/<id>/script.md` |
-| 4 | `fact-checker` | אימות עובדות לפורמט B והתאמה לגיל | תסריט | הערות בתסריט + מקורות |
-| 5 | `visual-prompter` | המרת התסריט לפרומפטים מדויקים לכלי ה-AI (תמונה/וידאו/Director) | תסריט + Bible | `episodes/<id>/prompts.md` |
-| 6 | `footage-curator` | איתור פוטג' סטוק אמיתי תואם ורישוי | רשימת שוטים | `episodes/<id>/footage.md` |
-| 7 | `voice-director` | כתיבת נוסח קריינות סופי, טון, קצב ובחירת קול | תסריט | `episodes/<id>/narration.md` |
-| 8 | `editor` | רשימת עריכה (EDL): סדר קליפים, תזמונים, מוזיקה, מעברים | כל הנכסים | `episodes/<id>/edit.md` |
-| 9 | `creative-packager` | כותרת, תמונה ממוזערת (Thumbnail), תיאור, תגיות, SEO | פרק סופי | `episodes/<id>/publish.md` |
-| 10 | `compliance-qa` | בדיקת ציות ובטיחות לפני העלאה — חוסם אם יש כשל | כל תיקיית הפרק | `episodes/<id>/qa.md` |
-| 11 | `analytics-strategist` | ניתוח ביצועים והמלצות לפרקים הבאים | נתוני YouTube Studio | `analytics/*.md` |
-| 12 | `ip-monetization` | הפיכת דמויות מצליחות לספרים, מרצ'נדייז, רישוי | נתוני ביצועים + Bible | `research/ip-*.md` |
+כל סוכן שתוצריו קריאייטיביים/רגישים לגיל/רגישים למדיניות **טוען סקיל ייעודי לפני שהוא מתחיל** (מוגדר ב-`.claude/skills/`) — כך שאין מצב שסוכן "מנחש" סטנדרט מקצועי במקום להסתמך על כללים כתובים ומבוססי מחקר. ראה סעיף 2א.
+
+| # | סוכן | תפקיד | סקילים נטענים | קלט | פלט |
+|---|---|---|---|---|---|
+| 0 | `showrunner` | מנהל ההפקה: מתזמר את הסוכנים, מחליט על סדר ובודק שכל שלב הושלם | toddler-content-pacing, youtube-kids-compliance | רעיון / לוח תוכן | `episodes/<id>/status.md` |
+| 1 | `trend-researcher` | מחקר ניש, מתחרים, נושאים מבוקשים, פערים בשוק | — | תחום / שאלה | `research/*.md` |
+| 2 | `character-designer` | עיצוב דמויות קבועות ושמירת עקביות ויזואלית | character-design-toddlers, ai-visual-consistency | קונספט דמות | `bible/characters/<name>.md` |
+| 3 | `story-writer` | כתיבת סיפור ותסריט לפי מסגרת 3 הביטים | toddler-content-pacing | נושא + דמויות | `episodes/<id>/script.md` |
+| 4 | `fact-checker` | אימות עובדות לפורמט B והתאמה לגיל | — | תסריט | הערות בתסריט + מקורות |
+| 5 | `visual-prompter` | המרת התסריט לפרומפטים מדויקים לכלי ה-AI (תמונה/וידאו/Director) | ai-visual-consistency, toddler-content-pacing | תסריט + Bible | `episodes/<id>/prompts.md` |
+| 6 | `footage-curator` | איתור פוטג' סטוק אמיתי תואם ורישוי | youtube-kids-compliance | רשימת שוטים | `episodes/<id>/footage.md` |
+| 7 | `voice-director` | כתיבת נוסח קריינות סופי, טון, קצב ובחירת קול | toddler-content-pacing | תסריט | `episodes/<id>/narration.md` |
+| 8 | `editor` | רשימת עריכה (EDL): סדר קליפים, תזמונים, מוזיקה, מעברים | toddler-content-pacing | כל הנכסים | `episodes/<id>/edit.md` |
+| 9 | `creative-packager` | כותרת, תמונה ממוזערת (Thumbnail), תיאור, תגיות, SEO | thumbnail-title-seo, youtube-kids-compliance | פרק סופי | `episodes/<id>/publish.md` |
+| 10 | `compliance-qa` | בדיקת ציות ובטיחות לפני העלאה — חוסם אם יש כשל | youtube-kids-compliance | כל תיקיית הפרק | `episodes/<id>/qa.md` |
+| 11 | `analytics-strategist` | ניתוח ביצועים והמלצות לפרקים הבאים | — | נתוני YouTube Studio | `analytics/*.md` |
+| 12 | `ip-monetization` | הפיכת דמויות מצליחות לספרים, מרצ'נדייז, רישוי | — | נתוני ביצועים + Bible | `research/ip-*.md` |
+
+### 2א. הסקילים (`.claude/skills/`)
+
+| סקיל | תוכן |
+|---|---|
+| `character-design-toddlers` | עקרונות עיצוב דמות לגיל 2–4: צורה, צבע, הבעות, צ'קליסט אישור |
+| `ai-visual-consistency` | טכניקות לשמירת עקביות ויזואלית בין generations (Character asset, seed, פרומפט קבוע, negative prompt) |
+| `toddler-content-pacing` | כללי שפה/קצב/מבנה מבוססי מחקר לגיל 2–4 (motherese, expectant pausing, אורך שוט) |
+| `youtube-kids-compliance` | Made for Kids, AI disclosure, מניעת "AI slop", בטיחות ילדים, רישוי |
+| `thumbnail-title-seo` | סטנדרטים ל-Thumbnail/כותרת/תיאור/תגיות לערוץ ילדים |
+
+סוכן חדש שנוסף לפרויקט חייב לקבל שיוך לסקיל רלוונטי אם קיים, או שסקיל חדש ייכתב עבורו — כלל קבוע כדי שאיכות הפלט לא תישען על ניחוש.
 
 ## 3. זרימת הפקה לכל פרק (Pipeline)
 
