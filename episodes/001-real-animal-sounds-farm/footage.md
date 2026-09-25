@@ -56,19 +56,15 @@ clip is silent or has only ambient wind/nature sound.
 - Dareful: `chicken hen farm sound`
 
 **Candidate clip:**
-- Link: https://www.pexels.com/video/chickens-looking-for-food-856986/ — chickens pecking/grazing on grass, farm setting
-  - Backup: https://www.pexels.com/video/brood-of-chickens-vertical-20643420/ — free-range chickens pecking outdoors
+- ~~Link: https://www.pexels.com/video/chickens-looking-for-food-856986/~~ — ❌ **REJECTED, user-verified 2026-09-26**: main subject is clearly a rooster (large red comb, long dark curved sickle tail feathers, colorful neck plumage). Confirmed by screenshot — do not use.
+- ✅ **Backup APPROVED (final): https://www.pexels.com/video/brood-of-chickens-vertical-20643420/** — free-range chickens (dark breed) pecking at cabbage leaves, farmyard setting. User-verified by screenshot: normal-sized combs, no long sickle tail feathers, no crowing pose — reads as a flock of hens. ✅ Locked as `03-chicken-real.mp4` source.
 - Length: check download page
 - Quality: HD available
-- Content check: **must confirm hens, not roosters** (script/fact-check specifies "cluck" =
-  hen sound, not rooster crow) — verify visually before final selection; pecking/foraging
-  behavior is natural and non-distressing — SAFE for kids
 
 **License:** Pexels License — free for commercial and personal use, no attribution required.
 ✅ Commercial use allowed. ❌ Credit not required.
 
-**Note:** Verify no rooster combs/tail feathers in frame (would visually contradict the
-"cluck" sound per fact-check note in script.md). Layer real hen-cluck SFX in edit.
+**Note:** Layer the approved `sfx-chicken-cluck.mp3` in edit, synced to a peck/head-bob moment.
 
 ---
 
