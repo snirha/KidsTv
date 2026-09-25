@@ -32,4 +32,4 @@ Great exploring today! Wiggle your nose... bye bye, see you next time!
 4. ברגע שנבחר קול — נעדכן כאן ובעמוד הדמות **את שם/ID הקול המדויק מהכלי**, כדי שכל סוכן/שימוש עתידי ישתמש באותו קול בדיוק (בדיוק כמו שנעשה עם הפרומפט הוויזואלי הקבוע).
 
 ## סטטוס
-⬜ טרם נבחר קול סופי — יש למלא את השדה `**קול (TTS):**` ב-`bible/style-bible.md` לאחר הבחירה.
+✅ **נבחר ונעול.** פרופיל "Pip - Pip's Meadow" ב-OpenArt Create Voiceover, מאושר על סמך מועמד #1 (`assets/voice-candidates/pip-voice-candidate-1.mp3`). עודכן ב-`bible/style-bible.md`.
