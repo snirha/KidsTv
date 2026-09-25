@@ -21,6 +21,9 @@ Every separate AI generation is a fresh roll of the dice on appearance unless yo
 6. **Seed reuse** if the tool exposes a seed value — reusing a seed across a shot sequence reduces stylistic jumps even when content changes.
 7. **Image-to-video over text-to-video** for hybrid (format B) shots: generate one still that nails the character/style, then animate that exact image, rather than generating video directly from text each time.
 
+## Re-running the same prompt is not reproducible
+Unlike animating an already-approved image (Frames to Video, or any true image-to-image/image-to-video step), generating fresh from a text prompt — even the exact same text — can produce a meaningfully different result each time (different color pattern, added props, different background elements). Episode 001 saw this directly: the same cow-scene prompt produced one clean on-spec result and, on a separate generation, a version with an unrequested tractor, hay bales, and a bell/rope collar. Once a specific generation is approved, treat *that file* as the locked asset — don't assume re-running "the same prompt" later will reproduce it, and don't discard an approved result in favor of a fresh regeneration just to "double check," since the fresh one is a new roll of the dice, not a more reliable copy.
+
 ## Reviewing outputs for drift
 When checking generated assets against the Bible, compare against this checklist:
 - [ ] Signature color(s) match Bible hex values (close enough to read as "the same")
