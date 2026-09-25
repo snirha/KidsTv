@@ -24,7 +24,7 @@ Load this before writing `script.md`, `narration.md`, or `edit.md`. Source: `res
 
 ## Length
 - Format A (story): 1.5–3 minutes total. Do not exceed this — attention drops sharply past it for this age.
-- Format B (hybrid): 2–5 minutes per item; a full episode can chain 3–4 items up to 8–10 minutes, but each item must stand alone as a complete beat.
+- Format B (hybrid): each item is a short, snappy beat (~20–40 seconds: AI clip → key word → real footage → key word repeated → pause/question) — do not pad an item to fill minutes. Chain enough items (typically 3–8) to reach a total episode length of **up to 5 minutes**. Full episode, not per-item, is the length target.
 - Micro-episodes (single emotion/concept, ~90 seconds) are a valid and encouraged standalone format — also ideal for Shorts repurposing.
 
 ## Visual pacing (for editor/visual-prompter)
