@@ -14,6 +14,7 @@
   , soft 3D cartoon style, warm soft pastel lighting, toddler animation style, bright saturated primary colors, simple rounded shapes, no sharp edges, consistent character design
   ```
   בלוק negative prompt קבוע להוספה בסוף כל פרומפט: `no text, no watermark, no extra limbs, no scary face, no realistic human anatomy, no violence, no weapons`
+- **קול Pip (TTS):** ⬜ טרם נבחר סופית — ראה `characters/pip-voice-audition.md` למפרט ותהליך הבחירה. מפרט מבוקש בקצרה: ילד/גור צעיר, גובה קול גבוה-בינוני חם (לא סקוויקי), נוטה-זכר, אנגלית אמריקאית ניטרלית, אנרגיה סקרנית-משחקית. **לפני הפקת פרק ראשון — יש לבחור ולנעול קול ספציפי מ-OpenArt Create Voiceover ולעדכן שדה זה עם השם/ID המדויק.**
 - **טון קריינות וקול:** חם, ישיר-למצלמה, בסגנון "motherese" (השראה ממחקר Ms Rachel שצוין ב-`research/2026-09-toddler-niche.md`): משפטים קצרים (3–6 מילים), חזרה מכוונת על מילת מפתח 2–3 פעמים, הבעות קול מוגזמות אך לא מפחידות, "expectant pausing" — השהיה של 2–3 שניות אחרי כל שאלה לילד/ה. לעולם לא טון "מלמד מלמעלה" — Pip תמיד שותף לגילוי, לא מורה.
 - **פתיח / סגיר קבועים:**
   - **פתיח (כל פרק, עד 5 שנ'):** Pip מרעיד את האף שלוש פעמים ואומר: *"Hi, hi! It's me, Pip! Today, we're going to explore [TOPIC]!"*
