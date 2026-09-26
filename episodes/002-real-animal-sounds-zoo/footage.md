@@ -1,31 +1,26 @@
 # footage
 
-**⚠️ הערת גישת רשת (עודכן — פאס שני, 2026-09-26):** נבדק מחדש ובאופן שיטתי יותר. לא רק
-pexels.com / pixabay.com / mixkit.co חסומים — נבדקו גם **videvo.net, coverr.co, dareful.com,
-vecteezy.com, archive.org** ו-**כולם חוזרים `EGRESS_BLOCKED`** על `WebFetch`. זו חסימת-רשת
-קטגוריאלית (לא ספציפית ל-3 האתרים שתועדו קודם) — כל אתרי סטוק-וידאו/מדיה בפועל חסומים בסנדבוקס
-הזה, ללא יוצא מן הכלל שנמצא. **`WebSearch` עדיין עובד** ומחזיר כותרות/תיאורים/URL-ים ספציפיים
-(לא רק דפי-קטגוריה) — בפאס הזה הצלחתי לצמצם כמה דפי-קטגוריה למועמדי-קליפ בודדים ספציפיים יותר
-(ראו §1-4 למטה), אבל **שום קליפ לא נצפה בפועל בפריימים** — אין דרך טכנית בסנדבוקס הזה לצפות
-בווידאו-סטוק בעצמי. כל הקישורים למטה עדיין דורשים פתיחה/צפייה/אישור אנושי.
+**⚠️ הערת גישת רשת:** גישה ישירה מהסשן לאתרי סטוק-וידאו (Pexels/Pixabay/וכו') חסומה קטגורית
+(`EGRESS_BLOCKED`) — כל בחירת-קליפ סופית נעשית ע"י המשתמש עצמו בצפייה ישירה, לא ע"י Claude.
 
-## 🔝 3 קישורים ספציפיים שהמשתמש צריך לפתוח בעצמו (לפי סדר עדיפות)
+## ✅ נעילה סופית (2026-09-26) — 3/4 פריטים נבחרו ואושרו ע"י המשתמש בצפייה ישירה
 
-1. **הנחש (הכי קריטי):** https://www.pexels.com/video/python-snake-in-natural-habitat-on-rocks-31702138/
-   — "Python Snake in Natural Habitat on Rocks". זה המועמד הכי ספציפי שנמצא (לא רק דף-קטגוריה).
-   ⚠️ הכותרת אומרת רק "python" (סוג משפחה, כל הפיתונים לא-רעילים) לא "ball python" באופן מפורש —
-   **חובה לוודא בצפייה:** (א) לא פיתון-ענק מפחיד-בגודלו (רשתי/בורמזי) שנראה מאיים לפעוט, (ב) ראש
-   עגול-רגיל לא משולש-קיצוני, (ג) בלי הצגת-שיניים/תקיפה, (ד) בלי יד אדם מחזיקה (זה כן משתמע
-   "natural habitat on rocks" שזה חיובי). אם זה נראה כמו ball python קטן ורגוע — מעולה. אם זה
-   פיתון ענק/מאיים — לפסול ולנסות: https://pixabay.com/videos/search/pythons%20ball/ (809+ תוצאות,
-   לבחור קליפ ידנית).
-2. **הפיל:** https://www.pexels.com/search/videos/elephant%20trumpeting/ (או
-   https://www.pexels.com/search/videos/elephant%20trunk/) — לא נמצא קליפ בודד עם חדק-מורם מאומת
-   בפאס הזה חרף כמה חיפושים ממוקדים; יש לדפדף ולבחור קליפ עם חדק מורם + לא רכיבה/מגע אדם.
-3. **האריה:** https://www.pexels.com/video/lion-resting-on-a-rock-7723862/ — שודרג בפאס הזה: תיאור
-   חיפוש-רשת חדש מציין במפורש **"lion resting on rock **in zoo**, showcasing strength in tranquil
-   setting"** — התאמה טובה יותר לנושא "Zoo Edition" מ"reserve" הכללי שתועד קודם. עדיין דורש אישור
-   חזותי (רעמה גלויה, בלי טרף בפריים).
+- **אריה:** https://www.pexels.com/video/majestic-lion-resting-outdoors-on-dome-34189642/ —
+  "Majestic Lion Resting Outdoors on Dome". **נעול.**
+- **פיל:** https://www.pexels.com/video/a-grassland-with-elephants-7499056/ — "A Grassland with
+  Elephants". **נעול.**
+- **נחש:** https://www.pexels.com/video/vibrant-garter-snake-slithering-outdoors-32136775/ —
+  "Vibrant Garter Snake Slithering Outdoors" — **garter snake בכותרת עצמה = מין מאושר במפורש**
+  (ברשימת המינים הבטוחים: corn snake / garter snake / ball python). **נעול.**
+- **קוף:** ⬜ עדיין לא אושר במפורש ע"י המשתמש — המועמד המוביל מהפאס הקודם נשאר
+  https://www.pexels.com/video/playful-monkeys-in-lush-tropical-forest-31829060/ ("Playful Monkeys
+  in Lush Tropical Forest") אלא אם המשתמש מעדיף קליפ אחר.
+
+⚠️ **נקודות שכותרת הקליפ בלבד לא מאשרת (המשתמש צפה בעצמו, אך לתעד לצורך QA מאוחר יותר):**
+- אריה: רעמה גלויה (מין = אריה זכר, לא לביאה) + בלי טרף/דם בפריים.
+- פיל: חדק מורם/תרועה בשלב מסוים בקליפ (לא רק הליכה עם חדק למטה) + לא רכיבה/מגע אדם.
+- נחש: ראש עגול (לא משולש), בלי הצגת-שיניים, בלי יד אדם מחזיקה — garter snake הוא מין קטן ורגוע
+  מטבעו כך שהסיכון הבטיחותי נמוך מלכתחילה.
 
 ---
 
@@ -219,23 +214,16 @@ highest-risk unresolved item in the episode.**
 
 ## Summary
 
-| # | Animal   | Site source | Candidate found | Species/action verified? | License | Credit required | Target filename |
-|---|----------|-------------|------------------|---------------------------|---------|------------------|------------------|
-| 1 | Lion     | Pexels      | Yes — top pick upgraded to explicit "in zoo" framing (7723862) + 2 backups | ⚠️ Needs visual confirm: mane, no prey scene | Pexels License (commercial OK) | No | 01-lion-real.mp4 |
-| 2 | Elephant | Pexels      | 3 individual clips isolated this pass (1171808, 18390675, 855538) but none confirm trunk-raise action | ⚠️ Needs pick + trunk-raise + species-consistency check | Pexels/Pixabay/Mixkit/Coverr License (commercial OK) | No | 02-elephant-real.mp4 |
-| 3 | Monkey   | Pexels      | Yes (3 candidates, unchanged from last pass, still best found) | ⚠️ Needs visual confirm: no bared-teeth threat display | Pexels License (commercial OK) | No | 03-monkey-real.mp4 |
-| 4 | Snake    | Pexels/Pixabay | **New this pass:** 1 specific clip candidate (31702138, generic "python") + 2 confirmed rejects added | ❌ **STILL NOT VERIFIED — highest priority open item** (title says "python", not confirmed "ball python"; size/head-shape needs eyes-on check) | Pexels/Pixabay License (commercial OK, pending pick) | No | 04-snake-real.mp4 |
+| # | Animal   | Site source | Final clip | Status |
+|---|----------|-------------|------------|--------|
+| 1 | Lion     | Pexels | [34189642](https://www.pexels.com/video/majestic-lion-resting-outdoors-on-dome-34189642/) — "Majestic Lion Resting Outdoors on Dome" | ✅ **נעול** — נבחר ואושר ע"י המשתמש בצפייה ישירה |
+| 2 | Elephant | Pexels | [7499056](https://www.pexels.com/video/a-grassland-with-elephants-7499056/) — "A Grassland with Elephants" | ✅ **נעול** — נבחר ואושר ע"י המשתמש בצפייה ישירה |
+| 3 | Monkey   | Pexels | [31829060](https://www.pexels.com/video/playful-monkeys-in-lush-tropical-forest-31829060/) — "Playful Monkeys in Lush Tropical Forest" | ⬜ מועמד מוביל, טרם אישור מפורש מהמשתמש |
+| 4 | Snake    | Pexels | [32136775](https://www.pexels.com/video/vibrant-garter-snake-slithering-outdoors-32136775/) — "Vibrant Garter Snake Slithering Outdoors" | ✅ **נעול** — garter snake מאושר בכותרת + בחירת משתמש בצפייה ישירה |
 
-**⚠️ STATUS: ALL 4 ITEMS STILL PENDING USER REVIEW/LOCK.** Re-tested this pass with a wider set of
-sites (videvo.net, coverr.co, dareful.com, vecteezy.com, archive.org, direct WebFetch on individual
-Pexels clip pages) — **every single one returned `EGRESS_BLOCKED`**, confirming this is a
-categorical network-policy block on stock-media hosts in this sandbox, not something fixable by
-trying "yet another site." `WebSearch` (Google-snippet based) is the only channel that works, and it
-was used this pass to narrow several items from generic category pages down to specific individual
-clip URLs (see §1-4). **No clip can be visually verified without the user personally opening the
-link and watching it** — this is unchanged from the previous pass, but the field of candidates is
-narrower/more specific now, especially for the snake (item 4), where species and scale are the
-non-negotiable safety gate (see `youtube-kids-compliance` skill §"Child safety content rules").
+**License (כל הקישורים):** Pexels License — free for commercial and personal use, no attribution required. ✅ Commercial use allowed. ❌ Credit not required.
+
+**נותר לפני שהפוטג' נעול במלואו:** אישור מפורש של המשתמש על קליפ הקוף (#3) — או קליפ חדש אם הוא מעדיף אחר.
 
 ---
 
