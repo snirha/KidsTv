@@ -39,6 +39,12 @@ This is a real, recurring failure mode, not a one-off: an image/video model may 
 
 If a generation drifts, regenerate with the fixed base prompt restored rather than trying to prompt-patch a broken result — patching compounds drift.
 
+## Lip-sync: dubbing models vs. avatar-generation models are not interchangeable
+If a character's mouth needs to move in sync with separately-recorded narration (not audio the video tool generated itself), check which category a candidate model actually falls into before testing it — the two categories look similar in marketing copy but solve different problems:
+- **Video-to-video "lip-resync"/dubbing models** (e.g. fal.ai's `latentsync`, `sync-lipsync`, `veed/lipsync`) re-time mouth motion that is *already present and continuous* in the source video onto new audio. They do not generate mouth motion from nothing. If the source AI clip only has a brief non-speech mouth gesture (e.g. one "hi!" burst then an idle closed mouth — typical of a short Google Flow/Veo clip that wasn't built as a talking performance), these models will pass the clip through nearly unchanged regardless of the new audio's content. This failure is silent: the job completes successfully and returns a valid video, so verify with a pixel diff between source and output frames (mean per-pixel diff in the single digits out of 255 = no real edit happened) rather than trusting a "COMPLETED" status. A tighter crop on the face does not fix this category mismatch — it's not a framing problem.
+- **Image-to-video audio-driven avatar-generation models** (e.g. fal.ai's `kling-video/ai-avatar`) build the entire performance from scratch from a still reference image + an audio file. This is the right category when the source has no continuous talking motion to re-time. Sanity-check: output duration should match the *audio's* length, not any pre-existing video's length — if it does, the model is generating fresh rather than editing a fixed-length clip.
+- Because avatar-generation models regenerate the whole frame on every run (not just the mouth region), treat their output like any other fresh AI generation for consistency review — check it against the character Bible using the drift checklist above (fur color/shade and ear shape are worth a specific look; minor frame-to-frame flicker in these has been observed even when the overall likeness holds).
+
 ## Prompt template to hand to visual-prompter output
 ```
 [BASE CHARACTER PROMPT — verbatim from bible/characters/<name>.md]
