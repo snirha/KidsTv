@@ -1,0 +1,152 @@
+1
+00:00:00,000 --> 00:00:05,000
+Hi, hi! It's me, Pip! Today, we're going to explore farm animals!
+
+2
+00:00:05,000 --> 00:00:06,286
+Look! A cow!
+
+3
+00:00:06,286 --> 00:00:08,000
+The cow says... MOO!
+
+4
+00:00:08,000 --> 00:00:10,600
+Moo! Moo! Can you say moo?
+
+5
+00:00:13,100 --> 00:00:16,100
+Sniff, sniff... let's see a REAL cow!
+
+6
+00:00:16,100 --> 00:00:17,833
+Yes! A real cow!
+
+7
+00:00:17,833 --> 00:00:20,000
+The cow says moo. Moo!
+
+8
+00:00:20,000 --> 00:00:23,000
+Did you hear the cow say moo?
+
+9
+00:00:25,500 --> 00:00:26,786
+Look! A sheep!
+
+10
+00:00:26,786 --> 00:00:28,500
+The sheep says... BAA!
+
+11
+00:00:28,500 --> 00:00:31,100
+Baa! Baa! Can you say baa?
+
+12
+00:00:33,600 --> 00:00:36,600
+Sniff, sniff... let's see a REAL sheep!
+
+13
+00:00:36,600 --> 00:00:38,333
+Yes! A real sheep!
+
+14
+00:00:38,333 --> 00:00:40,500
+The sheep says baa. Baa!
+
+15
+00:00:40,500 --> 00:00:43,500
+Did you hear the sheep say baa?
+
+16
+00:00:46,000 --> 00:00:49,000
+Ha! Its wool looks like a cloud!
+
+17
+00:00:49,000 --> 00:00:50,286
+Look! A chicken!
+
+18
+00:00:50,286 --> 00:00:52,000
+The chicken says... CLUCK!
+
+19
+00:00:52,000 --> 00:00:54,600
+Cluck! Cluck! Can you say cluck?
+
+20
+00:00:57,100 --> 00:01:00,100
+Sniff, sniff... let's see a REAL chicken!
+
+21
+00:01:00,100 --> 00:01:01,833
+Yes! A real chicken!
+
+22
+00:01:01,833 --> 00:01:04,000
+The chicken says cluck. Cluck!
+
+23
+00:01:04,000 --> 00:01:07,000
+Did you hear the chicken say cluck?
+
+24
+00:01:09,500 --> 00:01:10,786
+Look! A pig!
+
+25
+00:01:10,786 --> 00:01:12,500
+The pig says... OINK!
+
+26
+00:01:12,500 --> 00:01:15,100
+Oink! Oink! Can you say oink?
+
+27
+00:01:17,600 --> 00:01:20,600
+Sniff, sniff... let's see a REAL pig!
+
+28
+00:01:20,600 --> 00:01:22,333
+Yes! A real pig!
+
+29
+00:01:22,333 --> 00:01:24,500
+The pig says oink. Oink!
+
+30
+00:01:24,500 --> 00:01:27,500
+Did you hear the pig say oink?
+
+31
+00:01:30,000 --> 00:01:32,800
+We heard the cow say moo!
+
+32
+00:01:32,800 --> 00:01:35,600
+We heard the sheep say baa!
+
+33
+00:01:35,600 --> 00:01:38,150
+We heard the chicken say cluck!
+
+34
+00:01:38,150 --> 00:01:40,700
+We heard the pig say oink!
+
+35
+00:01:40,700 --> 00:01:42,400
+Moo, baa, cluck, oink!
+
+36
+00:01:44,900 --> 00:01:46,633
+Moo, baa, cluck, oink!
+
+37
+00:01:46,633 --> 00:01:48,800
+Can you say them too?
+
+38
+00:01:51,000 --> 00:01:56,000
+Great exploring today! Wiggle your nose... bye bye, see you next time!
+
