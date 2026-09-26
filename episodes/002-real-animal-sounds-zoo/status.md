@@ -14,7 +14,7 @@
 | יצירה (Google Flow) | **ידני (משתמש)** | 🔄 **הבא בתור** — לא תלוי באישור הפוטג', אפשר להתחיל במקביל |
 | SFX | **ידני (משתמש)** | ⬜ — 4 מועמדים ראשוניים תועדו ב-footage.md §5 (lion roar / elephant trumpet / monkey chatter / snake hiss, כולם Pixabay Content License), טרם הושמעו/אושרו |
 | מוזיקת רקע | **ידני (משתמש)** — מומלץ reuse ישיר ל"Sweet Children Music Loop – Gentle Joy" (Sonican, Pixabay Music) שאושר בפרק 001, כי משך הקריינות (~2:05) קרוב לפרק 001 — לא חובה ג'נרציה חדשה, ראה footage.md §6 | ⬜ |
-| רשימת עריכה | editor | ⬜ |
+| רשימת עריכה | editor | ✅ הושלם — `edit.md` מוכן (28 שורות/תת-שורות, פורמט זהה לפרק 001: טבלת שוטים, 3 טראקי אודיו, 3 הצעות Shorts, checklist). זמן ריצה מחושב ≈2:05.2 לפי narration.md בפועל. פיצול לשוטי-משנה ≤6s בפריט הקוף (מילת מפתח ארוכה) וב-RECAP (שאלת סיום). ping-pong loop (לא הקפאה) מתועד כפתרון לכל שוט שקליפ ה-AI קצר מהזמן הנדרש. הליך בועות-RECAP (Pip-בלבד ל-avatar-generation + overlay בועות מקוריות) מתועד במפורש בראש הקובץ. ⚠️ משכי שוטי הפוטג' האמיתי (0X-*-real.mp4) יזדקקו לכיוון קל כשהקליפים ייבחרו סופית (footage.md עדיין ⚠️ ממתין לאישור משתמש). |
 | lip-sync (fal-ai/kling-video/ai-avatar/v2) | Claude (בפועל, FAL.AI) | ⬜ — לפי הפתרון שנעל בפרק 001 (ראה CLAUDE.md §5): רפרנס Pip-בלבד לכל מקטע, בועות RECAP כ-overlay נפרד מוידאו מקורי מאושר |
 | הרכבה (ffmpeg) | Claude (בפועל) | ⬜ |
 | חבילת פרסום | creative-packager | ⬜ |
