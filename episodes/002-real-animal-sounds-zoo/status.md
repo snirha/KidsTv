@@ -10,11 +10,11 @@
 | אימות עובדות (B) | fact-checker | ✅ הושלם — כל 4 הצלילים אושרו ("Toot" תקין כמו "Moo"/"Cluck" בפרק 001, לא מונח ביולוגי אך מקובל). **הנחיה קריטית לפוטג' הנחש:** מינים מומלצים — corn snake / garter snake / ball python (לא-רעילים, ידידותיים); לפסול במפורש נחשים עם ראש משולש/רעלנים אזוריים. חיפוש בפוטג' לפי שם מין מדויק, לא "snake footage" כללי. |
 | קריינות | voice-director | ✅ הושלם — `narration.md` מוכן, קול "Pip - Pip's Meadow" הנעול, כולל הנחיית קצב ייעודית ל"Ooh ooh ah ah" (4 הברות, לא להאיץ) ולפרט האישי של הפיל (אוזניים) |
 | פרומפטים | visual-prompter | ✅ הושלם — `prompts.md` מוכן (OPEN/ITEM 1-4/RECAP/CLOSE, פורמט זהה לפרק 001). סביבת זואו אחידה חדשה (טרם אושרה כתמונת רפרנס — יש לאשר את ITEM 1 ולהשתמש בו כרפרנס ל-2-4). כולל הערות lip-sync מפורשות (Pip-בלבד ל-avatar-generation), פתרון בועות RECAP (גרסה 3 מפרק 001), ודגשי בטיחות/עיצוב לנחש (עיניים גדולות, פה סגור, בלי שיניים, negative prompt מוגבר). |
-| פוטג' (B) | footage-curator | ✅ **3/4 נעולים ע"י המשתמש (2026-09-26), אחרי צפייה ישירה.** אריה = [34189642](https://www.pexels.com/video/majestic-lion-resting-outdoors-on-dome-34189642/), פיל = [7499056](https://www.pexels.com/video/a-grassland-with-elephants-7499056/), נחש = [32136775](https://www.pexels.com/video/vibrant-garter-snake-slithering-outdoors-32136775/) (garter snake — מין מאושר במפורש בכותרת). ⬜ **נותר:** אישור מפורש על קליפ הקוף (מועמד מוביל: [31829060](https://www.pexels.com/video/playful-monkeys-in-lush-tropical-forest-31829060/)). ראה `footage.md` לפרטים. |
+| פוטג' (B) | footage-curator | ✅ **4/4 נעולים ע"י המשתמש (2026-09-26).** אריה = [34189642](https://www.pexels.com/video/majestic-lion-resting-outdoors-on-dome-34189642/), פיל = [7499056](https://www.pexels.com/video/a-grassland-with-elephants-7499056/), נחש = [32136775](https://www.pexels.com/video/vibrant-garter-snake-slithering-outdoors-32136775/) (garter snake — מין מאושר במפורש בכותרת), קוף = [31829060](https://www.pexels.com/video/playful-monkeys-in-lush-tropical-forest-31829060/). ראה `footage.md` לפרטים. |
 | יצירה (Google Flow) | **ידני (משתמש)** | 🔄 **הבא בתור** — לא תלוי באישור הפוטג', אפשר להתחיל במקביל |
 | SFX | **ידני (משתמש)** | ⬜ — 4 מועמדים ראשוניים תועדו ב-footage.md §5 (לא נבדקו מחדש בפאס הזה — מחוץ לתחום המשימה), טרם הושמעו/אושרו |
 | מוזיקת רקע | **ידני (משתמש)** — מומלץ reuse ישיר ל"Sweet Children Music Loop – Gentle Joy" (Sonican, Pixabay Music) שאושר בפרק 001 | ⬜ |
-| רשימת עריכה | editor | ✅ הושלם — `edit.md` מוכן (28 שורות/תת-שורות, פורמט זהה לפרק 001). ⚠️ משכי שוטי הפוטג' האמיתי (0X-*-real.mp4) יזדקקו לכיוון קל כשהקליפים ייבחרו סופית (footage.md עדיין ⚠️ ממתין לאישור משתמש). |
+| רשימת עריכה | editor | ✅ הושלם — `edit.md` מוכן (28 שורות/תת-שורות, פורמט זהה לפרק 001). |
 | lip-sync (fal-ai/kling-video/ai-avatar/v2) | Claude (בפועל, FAL.AI) | ⬜ — לפי הפתרון שנעל בפרק 001 |
 | הרכבה (ffmpeg) | Claude (בפועל) | ⬜ |
 | חבילת פרסום | creative-packager | ⬜ |
@@ -24,11 +24,10 @@
 
 **הערת קצב:** פרק זה נספר במכסת עד 3 פרקים/שבוע (יחד עם פרק 001).
 
-## 🔝 פעולה נדרשת מהמשתמש כרגע
+## ✅ פוטג' נעול במלואו (4/4)
 
-**אריה/פיל/נחש נעולים.** נותר רק: לאשר במפורש את קליפ הקוף (מועמד מוביל:
-https://www.pexels.com/video/playful-monkeys-in-lush-tropical-forest-31829060/) — או לשלוח קליפ
-אחר שהמשתמש מעדיף. אחרי זה הפוטג' נעול במלואו וניתן לעבור ל-Google Flow.
+הבא בתור: ג'נרציה ב-Google Flow (לפי `prompts.md`) + הקלטת/יצירת קריינות ב-ElevenLabs (לפי
+`narration.md`) — שני אלה ידניים בידי המשתמש.
 
 ## לקחים מיושמים מפרק 001 (למניעת חזרה על טעויות)
 - **lip-sync:** תמונת רפרנס לכל מקטע Pip תמיד **Pip בלבד** (לא Pip+חיה) — למניעת "דמות שנייה מדברת". אם השוט דורש Pip+חיה יחד, לחתוך רפרנס Pip-בלבד ולשקול קומפוזיציה מחדש בעריכה.

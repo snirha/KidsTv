@@ -12,9 +12,8 @@
 - **נחש:** https://www.pexels.com/video/vibrant-garter-snake-slithering-outdoors-32136775/ —
   "Vibrant Garter Snake Slithering Outdoors" — **garter snake בכותרת עצמה = מין מאושר במפורש**
   (ברשימת המינים הבטוחים: corn snake / garter snake / ball python). **נעול.**
-- **קוף:** ⬜ עדיין לא אושר במפורש ע"י המשתמש — המועמד המוביל מהפאס הקודם נשאר
-  https://www.pexels.com/video/playful-monkeys-in-lush-tropical-forest-31829060/ ("Playful Monkeys
-  in Lush Tropical Forest") אלא אם המשתמש מעדיף קליפ אחר.
+- **קוף:** https://www.pexels.com/video/playful-monkeys-in-lush-tropical-forest-31829060/ —
+  "Playful Monkeys in Lush Tropical Forest". **נעול.**
 
 ⚠️ **נקודות שכותרת הקליפ בלבד לא מאשרת (המשתמש צפה בעצמו, אך לתעד לצורך QA מאוחר יותר):**
 - אריה: רעמה גלויה (מין = אריה זכר, לא לביאה) + בלי טרף/דם בפריים.
@@ -218,12 +217,12 @@ highest-risk unresolved item in the episode.**
 |---|----------|-------------|------------|--------|
 | 1 | Lion     | Pexels | [34189642](https://www.pexels.com/video/majestic-lion-resting-outdoors-on-dome-34189642/) — "Majestic Lion Resting Outdoors on Dome" | ✅ **נעול** — נבחר ואושר ע"י המשתמש בצפייה ישירה |
 | 2 | Elephant | Pexels | [7499056](https://www.pexels.com/video/a-grassland-with-elephants-7499056/) — "A Grassland with Elephants" | ✅ **נעול** — נבחר ואושר ע"י המשתמש בצפייה ישירה |
-| 3 | Monkey   | Pexels | [31829060](https://www.pexels.com/video/playful-monkeys-in-lush-tropical-forest-31829060/) — "Playful Monkeys in Lush Tropical Forest" | ⬜ מועמד מוביל, טרם אישור מפורש מהמשתמש |
+| 3 | Monkey   | Pexels | [31829060](https://www.pexels.com/video/playful-monkeys-in-lush-tropical-forest-31829060/) — "Playful Monkeys in Lush Tropical Forest" | ✅ **נעול** — נבחר ואושר ע"י המשתמש |
 | 4 | Snake    | Pexels | [32136775](https://www.pexels.com/video/vibrant-garter-snake-slithering-outdoors-32136775/) — "Vibrant Garter Snake Slithering Outdoors" | ✅ **נעול** — garter snake מאושר בכותרת + בחירת משתמש בצפייה ישירה |
 
 **License (כל הקישורים):** Pexels License — free for commercial and personal use, no attribution required. ✅ Commercial use allowed. ❌ Credit not required.
 
-**נותר לפני שהפוטג' נעול במלואו:** אישור מפורש של המשתמש על קליפ הקוף (#3) — או קליפ חדש אם הוא מעדיף אחר.
+**✅ פוטג' נעול במלואו — 4/4 חיות.**
 
 ---
 
