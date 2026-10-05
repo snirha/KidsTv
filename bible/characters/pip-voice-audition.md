@@ -20,7 +20,7 @@ Sniff, sniff... let's see a REAL lion!
 
 Yes! A real lion!
 
-Great exploring today! Wiggle your nose... bye bye, see you next time!
+Great exploring today! Bye bye, see you next time!
 ```
 
 (אלו בדיוק המשפטים הקבועים מ-`bible/style-bible.md` — פתיח, catchphrase, מעבר לפוטג', חיזוק, וסגיר — כך שהבדיקה תשקף בדיוק איך הקול יישמע בפועל בכל פרק.)

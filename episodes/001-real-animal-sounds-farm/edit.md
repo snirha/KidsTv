@@ -48,7 +48,7 @@
 | 25 | 1:40.7–1:44.9 (4.2s) | `001-recap-pip-meadow.mp4` המשך, כל 4 האייקונים מוצגים יחד | "Moo, baa, cluck, oink!" **[PAUSE 2-3s]** | 4 האייקונים יחד + מילים מוקפצות | Hard cut |
 | 26 | 1:44.9–1:51.0 (6.1s → פצל ל-2 שוטים) | (א) 1:44.9–1:48.9 (4.0s): `001-recap-pip-meadow.mp4` + zoom-in קל; (ב) 1:48.9–1:51.0 (2.1s): קאט-בק ל-Pip תקריב | "Moo, baa, cluck, oink! Can you say them too?" **[PAUSE 2-3s]** | **Can you say them too?** | Hard cut באמצע, לשמור מתחת ל-6s לשוט |
 | **CLOSE** ||||||
-| 27 | 1:51.0–1:56.0 (5.0s) | `001-close-pip-meadow.mp4` | "Great exploring today! Wiggle your nose... bye bye, see you next time!" | **See you next time!** + כרזת "Next episode" (thumbnail קטן) | Fade to logo/end-card |
+| 27 | 1:51.0–1:56.0 (5.0s) | `001-close-pip-meadow.mp4` | "Great exploring today! Bye bye, see you next time!" | **See you next time!** + כרזת "Next episode" (thumbnail קטן) | Fade to logo/end-card |
 
 **זמן ריצה משוער כולל: ≈ 1:56 (116 שניות).**
 הערה: זהו זמן מדויק לפי VO + כל ה-[PAUSE] שנשמרו במלואם (ללא קיצוץ), כאשר כל שוט מתחיל עם תחילת הקריינות שלו (לפי כלל פורמט B) וללא ריפוד מלאכותי נוסף. זה קצר מהאומדן הגס ב-script.md (~7 דקות) — האומדן שם היה טרם נעילת ה-VO/timing בפועל. אם רוצים לקרב לאורך ~2:30–3:00 (למשל לצרכי מונטיזציה/מבנה ערוץ), ניתן להאריך את שוטי הזום-אין/הקאט-בק ב-1-2 שנ' נוספות כ"אוויר ויזואלי" — לא ב-VO/PAUSE עצמם.

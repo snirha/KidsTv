@@ -40,9 +40,9 @@ Negative prompt: no text, no watermark, no extra limbs, no scary face, no realis
 
 **⚠️ זו הפעם הראשונה שהסביבה נוצרת — שמור את התוצאה כתמונת הרפרנס הרשמית של "Pip's Meadow" ב-`bible/locations/assets/` ועדכן את הסטטוס ב-`pips-meadow.md`, לפני שממשיכים ל-RECAP ו-CLOSE, כדי ששלושתם יתבססו על אותה סביבה מאושרת.**
 
-**(2) Image→Video prompt (motion: signature nose-wiggle x3, then wave):**
+**(2) Image→Video prompt (motion: warm wave):**
 ```
-Animate this exact image of Pip in Pip's Meadow: Pip wiggles his nose three quick times (signature gesture), eyes widening with excitement on each wiggle, then breaks into a warm wave toward camera with one paw, gentle idle sway of the scarf in a light breeze, soft bounce on his feet, camera holds a static friendly medium shot, no camera shake, smooth toddler-paced motion, duration 4-5 seconds, soft 3D cartoon style, warm soft pastel lighting, toddler animation style, bright saturated primary colors, simple rounded shapes, no sharp edges, consistent character design
+Animate this exact image of Pip in Pip's Meadow: Pip perks up his ears and breaks into a warm wave toward camera with one paw, gentle idle sway of the scarf in a light breeze, soft bounce on his feet, camera holds a static friendly medium shot, no camera shake, smooth toddler-paced motion, duration 4-5 seconds, soft 3D cartoon style, warm soft pastel lighting, toddler animation style, bright saturated primary colors, simple rounded shapes, no sharp edges, consistent character design
 Negative prompt: no text, no watermark, no extra limbs, no scary face, no realistic human anatomy, no violence, no weapons, no fast whip-pans, no strobing
 ```
 
@@ -60,7 +60,7 @@ Negative prompt: no text, no watermark, no extra limbs, no scary face, no realis
 
 **(2) Image→Video prompt (motion: point, cow moos, Pip reacts):**
 ```
-Animate this exact image: Pip points at the cartoon cow with one paw and leans forward, curious; the cow tilts its head and opens its mouth in a big friendly "MOO" (mouth shape, no audio needed in prompt), Pip's ears perk up and he nods along, then Pip wiggles his nose three times before turning back to camera, gentle grass sway in background, static warm medium shot, smooth toddler-paced motion, duration 4-5 seconds, soft 3D cartoon style, warm soft pastel lighting, toddler animation style, bright saturated primary colors, simple rounded shapes, no sharp edges, consistent character design
+Animate this exact image: Pip points at the cartoon cow with one paw and leans forward, curious; the cow tilts its head and opens its mouth in a big friendly "MOO" (mouth shape, no audio needed in prompt), Pip's ears perk up and he nods along before turning back to camera, gentle grass sway in background, static warm medium shot, smooth toddler-paced motion, duration 4-5 seconds, soft 3D cartoon style, warm soft pastel lighting, toddler animation style, bright saturated primary colors, simple rounded shapes, no sharp edges, consistent character design
 Negative prompt: no text, no watermark, no extra limbs, no scary face, no realistic human anatomy, no violence, no weapons, no fast whip-pans, no strobing
 ```
 
@@ -84,7 +84,7 @@ Negative prompt: no text, no watermark, no extra limbs, no scary face, no realis
 
 **(2) Image→Video prompt (motion: sheep bleats, Pip giggles at wool-cloud detail):**
 ```
-Animate this exact image: the fluffy cartoon sheep bounces gently in place and opens its mouth in a soft "BAA", Pip wiggles his nose three times, tilts his head toward the sheep's wool, giggles softly and points up comparing the wool to the fluffy clouds overhead, camera holds a static warm medium shot, gentle cloud drift in background, smooth toddler-paced motion, duration 4-5 seconds, soft 3D cartoon style, warm soft pastel lighting, toddler animation style, bright saturated primary colors, simple rounded shapes, no sharp edges, consistent character design
+Animate this exact image: the fluffy cartoon sheep bounces gently in place and opens its mouth in a soft "BAA", Pip perks up his ears, tilts his head toward the sheep's wool, giggles softly and points up comparing the wool to the fluffy clouds overhead, camera holds a static warm medium shot, gentle cloud drift in background, smooth toddler-paced motion, duration 4-5 seconds, soft 3D cartoon style, warm soft pastel lighting, toddler animation style, bright saturated primary colors, simple rounded shapes, no sharp edges, consistent character design
 Negative prompt: no text, no watermark, no extra limbs, no scary face, no realistic human anatomy, no violence, no weapons, no fast whip-pans, no strobing
 ```
 
@@ -108,7 +108,7 @@ Negative prompt: no text, no watermark, no extra limbs, no scary face, no realis
 
 **(2) Image→Video prompt (motion: chicken pecks and clucks, Pip mimics rhythm):**
 ```
-Animate this exact image: the cartoon hen pecks the ground twice in a gentle rhythmic bob and opens its beak in a soft "CLUCK", Pip wiggles his nose three times and bobs his head playfully in the same rhythm as the hen, then turns to camera smiling, a couple of loose feathers drift softly in the background, static warm medium shot, smooth toddler-paced motion, duration 4-5 seconds, soft 3D cartoon style, warm soft pastel lighting, toddler animation style, bright saturated primary colors, simple rounded shapes, no sharp edges, consistent character design
+Animate this exact image: the cartoon hen pecks the ground twice in a gentle rhythmic bob and opens its beak in a soft "CLUCK", Pip perks up his ears and bobs his head playfully in the same rhythm as the hen, then turns to camera smiling, a couple of loose feathers drift softly in the background, static warm medium shot, smooth toddler-paced motion, duration 4-5 seconds, soft 3D cartoon style, warm soft pastel lighting, toddler animation style, bright saturated primary colors, simple rounded shapes, no sharp edges, consistent character design
 Negative prompt: no text, no watermark, no extra limbs, no scary face, no realistic human anatomy, no violence, no weapons, no fast whip-pans, no strobing
 ```
 
@@ -132,7 +132,7 @@ Negative prompt: no text, no watermark, no extra limbs, no scary face, no realis
 
 **(2) Image→Video prompt (motion: pig wiggles snout and oinks, tail curls):**
 ```
-Animate this exact image: the cartoon pig wiggles its round snout and curly tail spins playfully once while it opens its mouth in a soft "OINK", a few small soft mud bubbles pop gently nearby, Pip wiggles his nose three times back at the pig, then laughs softly and turns to camera, static warm medium shot, smooth toddler-paced motion, duration 4-5 seconds, soft 3D cartoon style, warm soft pastel lighting, toddler animation style, bright saturated primary colors, simple rounded shapes, no sharp edges, consistent character design
+Animate this exact image: the cartoon pig wiggles its round snout and curly tail spins playfully once while it opens its mouth in a soft "OINK", a few small soft mud bubbles pop gently nearby, Pip perks up his ears playfully back at the pig, then laughs softly and turns to camera, static warm medium shot, smooth toddler-paced motion, duration 4-5 seconds, soft 3D cartoon style, warm soft pastel lighting, toddler animation style, bright saturated primary colors, simple rounded shapes, no sharp edges, consistent character design
 Negative prompt: no text, no watermark, no extra limbs, no scary face, no realistic human anatomy, no violence, no weapons, no fast whip-pans, no strobing
 ```
 
@@ -172,9 +172,9 @@ Pip the quokka, small round toddler-friendly 3D cartoon character, chubby soft m
 Negative prompt: no text, no watermark, no extra limbs, no scary face, no realistic human anatomy, no violence, no weapons, no dark shadows, no dense dark forest
 ```
 
-**(2) Image→Video prompt (motion: wave + nose-wiggle x3 sign-off):**
+**(2) Image→Video prompt (motion: wave sign-off):**
 ```
-Animate this exact image of Pip in Pip's Meadow: Pip waves warmly at camera with one paw for about a second, then wiggles his nose three quick times (signature closing gesture), eyes crinkling with a happy gentle smile, soft idle sway of the scarf in a light breeze, camera holds a static friendly medium shot, no camera shake, gentle fade-ready final frame, smooth toddler-paced motion, duration 4-5 seconds, soft 3D cartoon style, warm soft pastel lighting, toddler animation style, bright saturated primary colors, simple rounded shapes, no sharp edges, consistent character design, no tall trees, keeping the same open meadow with only rolling hills and round bushes at the edges
+Animate this exact image of Pip in Pip's Meadow: Pip waves warmly at camera with one paw for about a second, eyes crinkling with a happy gentle smile, soft idle sway of the scarf in a light breeze, camera holds a static friendly medium shot, no camera shake, gentle fade-ready final frame, smooth toddler-paced motion, duration 4-5 seconds, soft 3D cartoon style, warm soft pastel lighting, toddler animation style, bright saturated primary colors, simple rounded shapes, no sharp edges, consistent character design, no tall trees, keeping the same open meadow with only rolling hills and round bushes at the edges
 Negative prompt: no text, no watermark, no extra limbs, no scary face, no realistic human anatomy, no violence, no weapons, no fast whip-pans, no strobing, no trees, no forest, no new background elements
 ```
 

@@ -1,0 +1,11 @@
+# Secrets — never commit
+service-account.json
+*.service-account.json
+*credentials*.json
+.env
+.env.*
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+*.swp

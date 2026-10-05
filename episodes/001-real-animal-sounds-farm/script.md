@@ -8,7 +8,7 @@
 
 ## OPEN (branded, verbatim מ-style-bible.md)
 
-**Visual:** Pip's Meadow, home base. Pip wiggles his nose three times, big excited eyes.
+**Visual:** Pip's Meadow, home base. Pip perks up his ears and waves, big excited eyes.
 
 **Pip (VO):**
 > "Hi, hi! It's me, Pip! Today, we're going to explore farm animals!"
@@ -66,7 +66,7 @@ Pip (VO): "Did you hear the sheep say baa?"
 [PAUSE 2-3s]
 
 **פרט אישי (unrepeated, לא תבניתי):**
-Pip wiggles his nose, then giggles and says:
+Pip perks up his ears, then giggles and says:
 > "Ha! Its wool looks like a cloud!"
 (שורה חד-פעמית בלבד — לא חוזרת בפריטים אחרים; תגובה ספונטנית של Pip לפרט חזותי ספציפי בפוטג' הזה, לא לתבנית.)
 
@@ -140,12 +140,12 @@ Pip (VO): "Moo, baa, cluck, oink! Can you say them too?"
 
 ## CLOSE (branded, verbatim מ-style-bible.md)
 
-**Visual:** Pip waves, wiggles his nose three times.
+**Visual:** Pip waves and perks up his ears.
 
 **Pip (VO):**
-> "Great exploring today! Wiggle your nose... bye bye, see you next time!"
+> "Great exploring today! Bye bye, see you next time!"
 
-(מילולי מדויק מ-style-bible.md, עם נפנוף יד + nose wiggle x3)
+(מילולי מדויק מ-style-bible.md, עם נפנוף יד)
 
 ---
 

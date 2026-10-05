@@ -61,7 +61,7 @@
 | 27a | 1:51.8–1:57.5 (5.7s) | `002-recap-pip-meadow.mp4` + zoom-in קל | "Roar, toot, ooh ooh ah ah, hiss! Can you say them too?" | **Can you say them too?** | Hard cut |
 | 27b | 1:57.5–2:00.0 (2.5s) | קאט-בק ל-Pip תקריב — **שוט נפרד כדי לא לעבור 6s רצף** | *(המשך [PAUSE], שקט מלא)* | **Can you say them too?** (נשאר) | Hard cut באמצע ה-PAUSE |
 | **CLOSE** ||||||
-| 28 | 2:00.0–2:05.2 (5.2s) | `002-close-pip-meadow.mp4` | "Great exploring today! Wiggle your nose... bye bye, see you next time!" | **See you next time!** + כרזת "Next episode" (thumbnail קטן) | Fade to logo/end-card |
+| 28 | 2:00.0–2:05.2 (5.2s) | `002-close-pip-meadow.mp4` | "Great exploring today! Bye bye, see you next time!" | **See you next time!** + כרזת "Next episode" (thumbnail קטן) | Fade to logo/end-card |
 
 **זמן ריצה משוער כולל: ≈ 2:05.2 (125.2 שניות).**
 הערה: זהו זמן מדויק לפי VO + כל ה-[PAUSE] שנשמרו במלואם (ללא קיצוץ, ממוצע 2.5s ל-PAUSE), כאשר כל שוט מתחיל עם תחילת הקריינות שלו (לפי כלל פורמט B). תואם את אומדן narration.md (≈125.3s). קרוב לפרק 001 (1:56) אך ארוך ממנו בכ-9 שניות — בעיקר בזכות מילת המפתח הארוכה של הקוף ("Ooh ooh ah ah", 4 הברות) ושורת הפרט האישי של הפיל; שניהם עדיין בתוך יעד ~5 דק' לפרק (`toddler-content-pacing`), אין חריגה.

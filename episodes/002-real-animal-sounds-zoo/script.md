@@ -8,7 +8,7 @@
 
 ## OPEN (branded, verbatim מ-style-bible.md)
 
-**Visual:** Pip's Meadow, home base. Pip מרעיד את האף שלוש פעמים, עיניים נרגשות.
+**Visual:** Pip's Meadow, home base. Pip מנפנף לשלום, אוזניים מזדקפות, עיניים נרגשות.
 
 **Pip (VO):**
 > "Hi, hi! It's me, Pip! Today, we're going to explore zoo animals!"
@@ -66,7 +66,7 @@ Pip (VO): "Did you hear the elephant say toot?"
 [PAUSE 2-3s]
 
 **פרט אישי (unrepeated, לא תבניתי):**
-Pip מרעיד את האף, ואז אומר בהתפעלות:
+Pip מזקף אוזניים, ואז אומר בהתפעלות:
 > "Whoa! Its ears are as big as a blanket!"
 (שורה חד-פעמית בלבד — לא חוזרת בפריטים אחרים; תגובה ספונטנית של Pip לגודל האוזניים הענק של הפיל בפוטג' עצמו, לא לתבנית.)
 
@@ -140,12 +140,12 @@ Pip (VO): "Roar, toot, ooh ooh ah ah, hiss! Can you say them too?"
 
 ## CLOSE (branded, verbatim מ-style-bible.md)
 
-**Visual:** Pip מנפנף, מרעיד את האף שלוש פעמים.
+**Visual:** Pip מנפנף לשלום, אוזניים מזדקפות.
 
 **Pip (VO):**
-> "Great exploring today! Wiggle your nose... bye bye, see you next time!"
+> "Great exploring today! Bye bye, see you next time!"
 
-(מילולי מדויק מ-style-bible.md, עם נפנוף יד + nose wiggle x3)
+(מילולי מדויק מ-style-bible.md, עם נפנוף יד)
 
 ---
 

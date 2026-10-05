@@ -8,7 +8,7 @@
 
 ## OPEN (0:00)
 
-**[נרגש, אנרגטי, ישיר-למצלמה]** — Pip מרעיד אף x3
+**[נרגש, אנרגטי, ישיר-למצלמה]** — Pip מנפנף לשלום, אוזניים מזדקפות
 > "Hi, hi! It's me, Pip! Today, we're going to explore farm animals!"
 - 12 מילים ≈ **5.2s**
 
@@ -200,8 +200,8 @@
 
 ## CLOSE
 
-**[חם, נעים, נופנוף יד + nose wiggle x3, מוריד אנרגיה בעדינות לקראת סיום]**
-> "Great exploring today! Wiggle your nose... bye bye, see you next time!"
+**[חם, נעים, נופנוף יד, מוריד אנרגיה בעדינות לקראת סיום]**
+> "Great exploring today! Bye bye, see you next time!"
 - 12 מילים ≈ **5.2s**
 
 ---

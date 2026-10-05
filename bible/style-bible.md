@@ -17,9 +17,9 @@
 - **קול Pip (TTS):** ✅ **ננעל.** קול "Pip - Pip's Meadow" (OpenArt Create Voiceover, פרופיל שמור בשם זה, אנגלית). דוגמה מאושרת שמורה ב-`characters/assets/voice-candidates/pip-voice-candidate-1.mp3`. תיאור הקול לשימוש עקבי בכל הפקה עתידית: "A warm, playful young character voice for a children's animated show — sounds like a curious young animal, not an adult narrator. Medium-high pitch, warm and friendly, NOT squeaky or shrill. Leaning male-ish/gender-neutral. Neutral American English accent. Energy: curious, gentle, playful, encouraging. Speaking pace: slightly slower than normal adult speech, with clear pauses between words." **בכל פרק יש להשתמש בפרופיל הקול השמור הזה בדיוק — אין ליצור קול חדש או לתאר מחדש.**
 - **טון קריינות וקול:** חם, ישיר-למצלמה, בסגנון "motherese" (השראה ממחקר Ms Rachel שצוין ב-`research/2026-09-toddler-niche.md`): משפטים קצרים (3–6 מילים), חזרה מכוונת על מילת מפתח 2–3 פעמים, הבעות קול מוגזמות אך לא מפחידות, "expectant pausing" — השהיה של 2–3 שניות אחרי כל שאלה לילד/ה. לעולם לא טון "מלמד מלמעלה" — Pip תמיד שותף לגילוי, לא מורה.
 - **פתיח / סגיר קבועים:**
-  - **פתיח (כל פרק, עד 5 שנ'):** Pip מרעיד את האף שלוש פעמים ואומר: *"Hi, hi! It's me, Pip! Today, we're going to explore [TOPIC]!"*
+  - **פתיח (כל פרק, עד 5 שנ'):** Pip מנפנף לשלום ואומר: *"Hi, hi! It's me, Pip! Today, we're going to explore [TOPIC]!"*
   - **מעבר לפוטג' אמיתי (פורמט B, חוזר על עצמו כל פריט):** *"Sniff, sniff... let's see a REAL [ITEM]!"* → אחרי הפוטג': *"Yes! A real [ITEM]!"*
   - **רקאפ (כל פרק):** Pip חוזר על מילת/משפט המפתח של הפרק, פעמיים, עם הפסקת ציפייה (expectant pause) אחרי כל חזרה.
-  - **סגיר (כל פרק):** *"Great exploring today! Wiggle your nose... bye bye, see you next time!"* + נפנוף יד + nose wiggle x3.
+  - **סגיר (כל פרק):** *"Great exploring today! Bye bye, see you next time!"* + נפנוף יד.
 - **דמויות:** ראה characters/ (דמות מארחת יחידה כרגע: `characters/pip.md`)
 - **קווים אדומים:** אין אלימות, אין פחד קיצוני, אין דמיון לדמויות מוגנות
