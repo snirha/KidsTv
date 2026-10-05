@@ -11,8 +11,14 @@ __pycache__/
 .venv/
 venv/
 
-# === Scratch / experiment artifacts ===
-# (throwaway scripts produced while exploring the Vertex pipeline)
+# === Scratch / experiment scripts (throwaway Vertex exploration) ===
+test_*.py
+*_scan.py
+list_models.py
+save_image.py
+
+# === Rejected / archive artifacts ===
+_archive_landscape/
 test_output.png
 PIP_nosewiggle_2d.mp4
 
