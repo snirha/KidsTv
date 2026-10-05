@@ -1,11 +1,22 @@
-# Secrets — never commit
+# === Secrets — never commit ===
 service-account.json
 *.service-account.json
 *credentials*.json
 .env
 .env.*
 
-# OS / editor junk
+# === Python ===
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# === Scratch / experiment artifacts ===
+# (throwaway scripts produced while exploring the Vertex pipeline)
+test_output.png
+PIP_nosewiggle_2d.mp4
+
+# === OS / editor junk ===
 .DS_Store
 Thumbs.db
 *.swp

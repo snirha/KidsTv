@@ -1,0 +1,21 @@
+# Normalize line endings: store LF in the repo, check out LF everywhere.
+# Prevents CRLF/LF phantom diffs when the repo is edited from both Windows and WSL.
+* text=auto eol=lf
+
+# Binary — never apply EOL conversion
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.gif binary
+*.ico binary
+*.mp4 binary
+*.mov binary
+*.webm binary
+*.mp3 binary
+*.wav binary
+*.m4a binary
+*.pdf binary
+*.zip binary
+*.ttf binary
+*.otf binary
