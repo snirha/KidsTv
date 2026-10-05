@@ -27,3 +27,7 @@ PIP_nosewiggle_2d.mp4
 Thumbs.db
 *.swp
 scan_models.py
+
+# Superseded video iterations (keep only the latest)
+episodes/002-real-animal-sounds-zoo/generated_videos/LION_veo.mp4
+episodes/002-real-animal-sounds-zoo/generated_videos/LION_veo_v2.mp4
