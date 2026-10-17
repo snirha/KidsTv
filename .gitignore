@@ -31,3 +31,12 @@ scan_models.py
 # Superseded video iterations (keep only the latest)
 episodes/002-real-animal-sounds-zoo/generated_videos/LION_veo.mp4
 episodes/002-real-animal-sounds-zoo/generated_videos/LION_veo_v2.mp4
+
+# === Rejected / superseded generations (kept locally as evidence, not in git) ===
+*_rejected.*
+*_veo_v1_*.mp4
+episodes/**/*_v1_*.mp4
+
+# === Generation logs ===
+episodes/**/*.log
+veo_*.log
