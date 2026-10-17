@@ -1,6 +1,6 @@
 # edit — EDL: Episode 002 "Real Animal Sounds: Zoo Edition"
 
-פורמט B | Pip | 16:9 | קול: Pip - Pip's Meadow (ElevenLabs, נעול — ראו narration.md)
+פורמט B | Pip | 9:16 (אנכי) | קול: Pip - Pip's Meadow (ElevenLabs, נעול — ראו narration.md)
 מקור: script.md + narration.md (VO מדויק + [PAUSE] נשמרים כזמן טיימליין אמיתי — לא נחתכים) + prompts.md (קבצי AI) + footage.md (קבצי סטוק אמיתיים)
 
 **⚠️ הערה חשובה — פוטג' אמיתי טרם נעול:** footage.md מסמן את כל 4 קליפי הפוטג' האמיתי (`01-lion-real.mp4`, `02-elephant-real.mp4`, `03-monkey-real.mp4`, `04-snake-real.mp4`) כ-⚠️ ממתינים לאישור המשתמש בצפייה בפועל (במיוחד הנחש — corn/garter/ball python בלבד, לא מין רעיל). ה-EDL הזה בנוי על ההנחה שהקליפים שיאושרו יהיו באורך דומה למה שמוצג כאן (3.9s/5.5s לכל שוט פוטג'); **משכי השוטים האמיתיים בטבלה למטה עלולים להזדקק לכיוון קל (±0.5-1s) כשהקליפים ייבחרו סופית** — לא לראות את הזמנים כאן כסופיים ל-100% עבור שוטי ה-`0X-*-real.mp4`, רק ל-VO/PAUSE שכבר נעולים.
