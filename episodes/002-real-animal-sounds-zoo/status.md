@@ -13,15 +13,15 @@
 | אימות עובדות (B) | fact-checker | ✅ הושלם |
 | קריינות (טקסט) | voice-director | ✅ `narration.md` מוכן (~125s VO, 7 מקטעים) |
 | פרומפטים | visual-prompter | ✅ `prompts.md` + `prompts.json` |
-| פוטג' (B) | footage-curator | ✅ **4/4 נעולים ע"י המשתמש** — **⚠️ קבצים טרם הורדו** (רשת חסומה, ראו למטה) |
+| פוטג' (B) | footage-curator | ✅ **4/4 נעולים והורדו** — מאסטרים אנכיים 1080×1920 ב-`assets/` (המקורות הגולמיים ב-`assets/raw/`) |
 | **יצירה ויזואלית (Vertex AI)** | **Claude (אוטומטי)** | ✅ **7 סטילס + 7 קליפי Veo** — כולם 9:16 (768×1344 סטילס / 720×1280 קליפ, 8s, 24fps) |
 | **רפרנסים ל-avatar (Pip-בלבד)** | **Claude (אוטומטי)** | ✅ **7 קבצים** — `generated_images/{SCENE}_vertical_pip-only.png` |
 | **בועות RECAP (assets)** | **Claude (אוטומטי)** | ✅ **4 באדג'ים עגולים** — `assets/icon-bubbles/{lion,elephant,monkey,snake}.png` |
 | קריינות אודיו | **ידני (משתמש)** | ⬜ **חסום** — נדרש voice_id או הקלטה (ראו למטה) |
 | SFX | **ידני (משתמש)** | ⬜ 4 מועמדים תועדו ב-`footage.md` §5 |
-| מוזיקת רקע | **ידני (משתמש)** | ⬜ reuse "Sweet Children Music Loop – Gentle Joy" (אושר בפרק 001) |
+| מוזיקת רקע | Claude (אוטומטי) | ✅ הועתקה מפרק 001 — `assets/music/music-bed-farm-gentle.mp3` (124s, מאושר) |
 | lip-sync (`fal-ai/kling-video/ai-avatar/v2`) | Claude (FAL.AI) | ⬜ **חסום על קריינות אודיו** |
-| הרכבה (ffmpeg) | Claude | ⬜ **חסום על קריינות אודיו + פוטג'** |
+| הרכבה (ffmpeg) | Claude | ⬜ **חסום על קריינות אודיו בלבד** (פוטג' ✅, מוזיקה ✅) |
 | חבילת פרסום | creative-packager | ⬜ |
 | QA | compliance-qa | ⬜ **חוסם — אסור לסמן "מוכן להעלאה" לפני אישור** |
 | העלאה | **ידני (משתמש)** | ⬜ |
@@ -55,11 +55,19 @@
 
 ## חסימות פתוחות (נדרש המשתמש)
 
-1. **קריינות אודיו** — אין קבצי mp3 בפרק. הקול הנעול ("Pip - Pip's Meadow") הוא פרופיל מותאם ב-ElevenLabs; המפתח הקיים (בריפו Kevin) חסר הרשאת `voices_read` ולכן **לא ניתן להפיק אודיו דרך ה-API** בלי ה-`voice_id`. **נדרש:** voice_id, או הקלטה/הפקה ידנית לפי `narration.md`.
-2. **4 קליפי פוטג' אמיתי** — הקישורים נעולים (`footage.md`) אך **הרשת חסומה לסנדבוקס** ל-pexels.com/pixabay.com (HTTP 403). **נדרש:** הורדה ידנית → `assets/`. שמות מבוקשים: `01-lion-real.mp4`, `02-elephant-real.mp4`, `03-monkey-real.mp4`, `04-snake-real.mp4`.
-3. **SFX + מוזיקה** — ידני.
+**חוסם יחיד להמשך אוטומטי מלא:**
 
-> lip-sync וההרכבה חסומים עד ש-(1) ו-(2) יסופקו.
+1. **קריינות אודיו — 7 קבצים (open/lion/elephant/monkey/snake/recap/close).** אין עדיין. הקול הנעול ("Pip - Pip's Meadow") הוא פרופיל מותאם ב-ElevenLabs. מפתח ה-API הקיים **כן עובד ל-`text_to_speech`** (אומת: HTTP 200 מול קול ציבורי), אך חסר הרשאת `voices_read` — ולכן אי-אפשר לרשום קולות כדי למצוא את ה-ID. **נדרש (אחד משניים):**
+   - (א) **ה-`voice_id` של "Pip - Pip's Meadow"** → אפיק את כל 7 קליפי הקריינות אוטומטית מה-`narration.md`;
+   - (ב) **הקלטה/הפקה ידנית** → `assets/narration/` בשמות המבוקשים (ראו `assets/narration/README.md`).
+
+2. **SFX — 4 צלילי חיות אמיתיים (`sfx-lion-roar.mp3`, `sfx-elephant-trumpet.mp3`, `sfx-monkey-chatter.mp3`, `sfx-snake-hiss.mp3`).** מקורות מתועדים ב-`footage.md` §5 הם קישורי **pixabay**, ו-pixabay חסום לסנדבוקס (403). אודיו הפוטג' עצמו **שקט לחלוטין** (לקליפים אין זרם אודיו). **נדרש:** הורדה ידנית מ-pixabay, **או** אישור להשתמש בתחליף CC0 מ-**freesound.org** (נגיש לסנדבוקס — אוכל להוריד בעצמי).
+
+**לא חסום יותר — בוצע אוטומטית:**
+- ~~4 קליפי פוטג' אמיתי~~ ✅ **כבר הורדו ומאומתים** (1080×1920, 30fps, אנכי).
+- ~~מוזיקת רקע~~ ✅ הועתקה מפרק 001 (`assets/music/music-bed-farm-gentle.mp3`, 124s — אושר בפרק 001).
+
+> lip-sync וההרכבה חסומים עד ש-(1) הקריינות תסופק. (2) SFX נדרש לפני ההרכבה הסופית, לא לפני ה-lip-sync.
 
 ---
 
